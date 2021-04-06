@@ -11,7 +11,45 @@ h5,
 h6 {
   color: #1e1e1e;
 }
+/* Eye Animation  Start*/
+svg {
+  animation: squeeze 2s infinite;
+}
 
+#inner {
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  90% {
+    transform: none;
+    animation-timing-function: ease-in;
+  }
+
+  93% {
+    transform: translateY(30px) scaleY(0);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes squeeze {
+  90% {
+    transform: none;
+    animation-timing-function: ease-in;
+  }
+
+  93% {
+    transform: translateY(3px) scaleY(0.8);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+  }
+}
+/* Eye Animation End */
 a {
   color: #1e1e1e;
   transition: all 0.5s ease-in-out;
