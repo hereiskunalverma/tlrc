@@ -180,6 +180,16 @@ a:hover {
   text-transform: uppercase;
 }
 
+
+@media (max-width: 768px) {
+  .recents .title-a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+
 .subtitle-a {
   color: #4e4e4e;
 }
@@ -757,12 +767,17 @@ a:hover {
   padding-bottom: 4rem;
 }
 
+
 .about-mf .about-img {
   margin-bottom: 2rem;
 }
 
 .about-mf .about-img img {
   margin-left: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.5);
+}
+.about-mf .about-img img:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #1597BB;
 }
 
 @media (min-width: 767px) {
@@ -771,7 +786,16 @@ a:hover {
     padding-left: 0rem;
   }
 }
+.about-info .btn{
+  border: 2px solid #1597BB;
+}
 
+
+
+.about-info .btn:hover{
+  background-color:#1597BB;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+}
 .skill-mf span {
   color: #4e4e4e;
 }
