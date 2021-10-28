@@ -1,615 +1,1121 @@
+<!--  R E X -->
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>I am Kunal Verma</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="src/img/favicon.png" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap"
+    />
+    <link rel="stylesheet" href="src/app/css/uikit-custom.min.css" />
+    <link rel="stylesheet" href="src/app/css/app.css" />
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  </head>
 
-  <title>Kunal Verma</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/favicon0.png" rel="icon">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- Ion Package for icons -->
-  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-
-</head>
-
-<body id="page-top">
-
-  <!-- ======= Header/ Navbar ======= -->
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-    <div class="container">
-      <!-- <a class="navbar-brand js-scroll" href="#page-top">👋 Hi</a> -->
-      <a class="navbar-brand js-scroll" href="#page-top">
-
-        <svg width="80" height="60" viewBox="0 0 110 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <g id="outer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-            <path
-              d="M5.73 36.91C9.55 41.07 14.91 45.87 20.85 49.65 32.78 57.24 46.87 59.43 55.26 59.43 63.57 59.43 77.39 57.17 89.12 49.65 95.1 45.81 100.37 41.2 104.19 37.04 107.68 33.25 110 29.72 110 29.72 110 29.72 108.01 26.49 104.19 22.42 100.52 18.49 95.14 13.8 89.12 10.01 77.81 2.9 63.13 0 55.26 0 46.88 0 32.78 2.42 20.85 10.01 14.93 13.78 9.55 18.42 5.73 22.52 2.19 26.32 0 29.72 0 29.72 0 29.72 2.22 33.08 5.73 36.91Z"
-              id="4" fill="#1597BB" transform="translate(55.000000, 29.715640) scale(-1, 1) translate(-55.000000, -29.715640) " />
-            <path d="M55.26 59.43C71.67 59.43 84.98 46.13 84.98 29.72 84.98 13.3 71.67 0 55.26 0 38.85 0 25.55 13.3 25.55 29.72 25.55 46.13 38.85 59.43 55.26 59.43Z" id="inner" fill="#EBEBEB" />
-            <circle id="inner" fill="#D8D8D8" cx="55.26" cy="29.72" r="22.42" />
-            <path d="M55.26 44.31C63.32 44.31 69.86 37.78 69.86 29.72 69.86 21.65 63.32 15.12 55.26 15.12 47.2 15.12 40.66 21.65 40.66 29.72 40.66 37.78 47.2 44.31 55.26 44.31Z" id="inner" fill="#333333" />
-        </svg>
-      </a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll active" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#project">Work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contact">Contact</a>
-          </li>
-        </ul>
+  <body id="body-app" class="yb-dark-skin uk-light">
+    <!-- page loader -->
+    <div id="pageloader" class="yb-pageloader-wrapper">
+      <div class="uk-position-center uk-text-center">
+        <div data-uk-spinner></div>
       </div>
     </div>
-  </nav>
+    <!-- end page loader -->
+    <!-- main header -->
+    <header class="yb-main-header" id="main-header">
+      <!-- home section -->
+      <div class="yb-full-height" id="home">
+        <section class="yb-profile-desc yb-dark-skin uk-light">
+          <div class="yb-video-wrapper">
+            <img src="./src/img/intro-bg.jpg" />
+            <div class="uk-overfly uk-position-cover yb-video-overfly"></div>
+          </div>
 
-  <!-- ======= Intro Section ======= -->
-  <div id="home" class="intro route bg-image" style="background-image: url(assets/img/intro-bg.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4">I am Kunal Verma</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">Front End Developer,ML/AI Enthusiast,Competitive Programmer</span><strong class="text-slider"></strong></p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
-        </div>
+          <div
+            class="
+              uk-container uk-text-center
+              yb-profile-desc-wrap
+              uk-position-relative
+            "
+          >
+            <img src="src/img/x1.png" alt="" width="60" />
+            <h1 class="uk-text-bold yb-gradient-text">
+              <span>Kunal</span> <span>Verma</span>
+            </h1>
+            <div class="uk-text-bold yb-myjob">
+              Im a <span id="typed" class="typed"></span>
+            </div>
+          </div>
+        </section>
       </div>
-    </div>
-  </div><!-- End Intro Section -->
+      <!-- end home section -->
 
-  <main id="main">
+      <!-- main menu -->
+      <nav class="yb-main-menu" id="main-menu">
+        <div class="uk-container" data-uk-navbar>
+          <div class="uk-navbar-left">
+            <a href="./index.html">
+              <svg
+                width="80"
+                height="60"
+                viewBox="0 0 110 60"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g
+                  id="outer"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <path
+                    d="M5.73 36.91C9.55 41.07 14.91 45.87 20.85 49.65 32.78 57.24 46.87 59.43 55.26 59.43 63.57 59.43 77.39 57.17 89.12 49.65 95.1 45.81 100.37 41.2 104.19 37.04 107.68 33.25 110 29.72 110 29.72 110 29.72 108.01 26.49 104.19 22.42 100.52 18.49 95.14 13.8 89.12 10.01 77.81 2.9 63.13 0 55.26 0 46.88 0 32.78 2.42 20.85 10.01 14.93 13.78 9.55 18.42 5.73 22.52 2.19 26.32 0 29.72 0 29.72 0 29.72 2.22 33.08 5.73 36.91Z"
+                    id="4"
+                    fill="#1597BB"
+                    transform="translate(55.000000, 29.715640) scale(-1, 1) translate(-55.000000, -29.715640) "
+                  ></path>
+                  <path
+                    d="M55.26 59.43C71.67 59.43 84.98 46.13 84.98 29.72 84.98 13.3 71.67 0 55.26 0 38.85 0 25.55 13.3 25.55 29.72 25.55 46.13 38.85 59.43 55.26 59.43Z"
+                    id="inner"
+                    fill="#EBEBEB"
+                  ></path>
+                  <circle
+                    id="inner"
+                    fill="#D8D8D8"
+                    cx="55.26"
+                    cy="29.72"
+                    r="22.42"
+                  ></circle>
+                  <path
+                    d="M55.26 44.31C63.32 44.31 69.86 37.78 69.86 29.72 69.86 21.65 63.32 15.12 55.26 15.12 47.2 15.12 40.66 21.65 40.66 29.72 40.66 37.78 47.2 44.31 55.26 44.31Z"
+                    id="inner"
+                    fill="#333333"
+                  ></path>
+                </g>
+              </svg>
+            </a>
+          </div>
+          <div class="uk-navbar-right uk-hidden@m">
+            <a class="uk-navbar-toggle" href="#" id="btn-menu-toggle">
+              <span data-uk-navbar-toggle-icon class="yb-icon-menu"></span>
+              <span data-uk-icon="close" class="yb-icon-close"></span>
+            </a>
+          </div>
+          <div class="yb-menu-toggle-wrapper" id="menucollapse">
+            <div class="uk-navbar-center">
+              <ul
+                class="uk-navbar-nav"
+                data-uk-scrollspy-nav="closest: li; scroll: false; offset: 79 "
+              >
+                <li>
+                  <a class="yb-inner-link" href="#home"> Home </a>
+                </li>
+                <li>
+                  <a class="yb-inner-link" href="#about"> About</a>
+                </li>
+                <li>
+                  <a class="yb-inner-link" href="#resume"> Resume </a>
+                </li>
+                <li>
+                  <a class="yb-inner-link" href="#portfolio"> Projects </a>
+                </li>
+                <li>
+                  <a class="yb-inner-link" href="#blog"> Recents </a>
+                </li>
+                <li>
+                  <a class="yb-inner-link" href="#contact"> Contact </a>
+                </li>
+              </ul>
+            </div>
+            <div class="uk-navbar-right">
+              <ul class="uk-navbar-nav yb-social-icons">
+                <li>
+                  <a href="https://www.linkedin.com/in/kunalverma19/">
+                    <span class="uk-icon" data-uk-icon="icon: linkedin"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/hereiskunalverma">
+                    <span class="uk-icon" data-uk-icon="icon: github"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://codeforces.com/profile/kunalverma19">
+                    <span class="uk-icon">
+                      <img
+                        src="./src/img/codeforces-logo.png"
+                        style="width: 20px; height: 20px"
+                      />
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.codechef.com/users/kunalverma_19">
+                    <span class="uk-icon">
+                      <img
+                        src="./src/img/codechef-logo.jpg"
+                        style="width: 20px; height: 20px"
+                      />
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- end main menu -->
+    </header>
+    <!-- end main header -->
+    <!-- main section -->
+    <main class="yb-main-content">
+      <!-- about section -->
+      <section id="about" class="yb-section">
+        <div class="yb-my-profile">
+          <div class="uk-container">
+            <div class="uk-grid-collapse uk-child-width-expand@m" data-uk-grid>
+              <div>
+                <div
+                  class="
+                    yb-my-profile-img
+                    uk-background-cover
+                    uk-background-norepeat
+                    uk-background-top-center
+                  "
+                  data-src="src/img/myself.jpg"
+                  style="text-align: center"
+                  data-uk-img
+                  data-uk-lightbox
+                >
+                </div>
+              </div>
+              <div>
+                <div class="yb-my-profile-desc">
+                  <div class="yb-section-point-wrapper">
+                    <div class="yb-section-point right">
+                      <sup>02</sup>
+                      <span>About</span>
+                    </div>
+                  </div>
+                  <div class="yb-my-profile-desc-top">
+                    <h2 class="yb-section-title">Hello There!</h2>
+                    <p>
+                      I am lucky that I discovered my passion when I was 13
+                      years old. It is to create things, love for machines and
+                      softwares <br />
+                      I am fanatical. Machines and Softwares are the only thing
+                      I am really focused on. <br />
+                      I am a edacious reader, a self-learner, a dedicated
+                      Competitive Programmer, and an optimisitic person.<br />
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="about-img">
-                        <img src="assets/img/myself.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                      I am an dedicated and open-minded person who loves to
+                      connect with people.
+                    </p>
+                  </div>
+                  <div class="yb-my-profile-desc-bottom yb-bg-soft">
+                    <ul class="yb-my-profile-desc-info uk-list">
+                      <li><span>Birthdate</span> : Aug'25, 2000</li>
+                      <li><span>Name</span> : Kunal Verma</li>
+                      <li><span>Phone</span> : + 91-7014114843</li>
+                      <li><span>Email</span> : 2020kucp1093@iiitkota.ac.in</li>
+                      <li>
+                        <span>Addresses</span> : Jaipur, Rajasthan, India-302002
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="yb-border-top yb-border-bottom">
+          <div class="uk-container">
+            <div
+              data-uk-grid
+              class="
+                yb-box-services
+                uk-child-width-1-4@l
+                uk-child-width-1-2
+                uk-text-center
+                uk-grid-divider
+              "
+            >
+              <div>
+                <div class="yb-box-service">
+                  <span
+                    class="uk-icon"
+                    data-uk-icon="icon: code; ratio: 1.5"
+                  ></span>
+                  <h5>Competitive Programming</h5>
+                </div>
+              </div>
+              <div>
+                <div class="yb-box-service">
+                  <span
+                    class="uk-icon"
+                    data-uk-icon="icon: laptop; ratio: 1.5"
+                  ></span>
+                  <h5>Web Developer</h5>
+                </div>
+              </div>
+              <div>
+                <div class="yb-box-service">
+                  <span
+                    class="uk-icon"
+                    data-uk-icon="icon: reddit; ratio: 1.5"
+                  ></span>
+                  <h5>ML/AI</h5>
+                </div>
+              </div>
+              <div>
+                <div class="yb-box-service">
+                  <span
+                    class="uk-icon"
+                    data-uk-icon="icon: bookmark; ratio: 1.5"
+                  ></span>
+                  <h5>Book Reader</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end about section -->
+      <!-- resume section -->
+      <section class="yb-section" id="resume">
+        <div class="yb-section-point-wrapper">
+          <div class="uk-container">
+            <div class="yb-section-point">
+              <sup>03</sup>
+              <span>Resume</span>
+            </div>
+          </div>
+        </div>
+        <div class="uk-container">
+          <div data-uk-grid class="uk-grid-divider">
+            <div
+              class="
+                uk-width-1-4@s uk-visible@s uk-margin-large-bottom
+                yb-section-padding-top
+              "
+              id="resume-nav-wrapper"
+            >
+              <div
+                data-uk-sticky="bottom: #resume-nav-wrapper; offset: 100; media: 650"
+              >
+                <ul
+                  class="yb-nav-left uk-tab-left uk-tab"
+                  data-uk-scrollspy-nav="closest: li; scroll: false; offset: 120"
+                >
+                  <li class="uk-active">
+                    <a
+                      href="#education"
+                      class="yb-inner-link"
+                      data-offset="120"
+                    >
+                      <span data-uk-icon="minus"></span>
+                      Education
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#experience"
+                      class="yb-inner-link"
+                      data-offset="120"
+                    >
+                      <span data-uk-icon="minus"></span>
+                      Experience
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#skills" class="yb-inner-link" data-offset="120">
+                      <span data-uk-icon="minus"></span>
+                      Skills
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#awwwards" class="yb-inner-link" data-offset="120">
+                      <span data-uk-icon="minus"></span>
+                      Awards
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="uk-width-expand@s yb-section-padding-top">
+              <div>
+                <h2 class="yb-section-title uk-heading-line" id="education">
+                  <span>Education</span>
+                </h2>
+                <div class="yb-resume-list">
+                  <ul class="uk-list uk-list-large uk-list-divider">
+                    <li>
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                          <div class="yb-resume-item-date-text">
+                            <span>2020 - 2024</span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">
+                          Bachelor of Technology, Computer Science & Engineering
+                        </h4>
+                        <strong
+                          >Indian Institute of Information Technology
+                          Kota</strong
+                        >
                       </div>
-                    </div>
-                    <div class="col-sm-6 col-md-7">
-                      <div class="about-info">
-                        <p><span class="title-s">Name: </span> <span>Kunal Verma</span></p>
-                        <p><span class="title-s">Email: </span> <span>omeshankar@gmail.com</span></p>
-                        <p><span class="title-s">Phone: </span> <span>(+91) 7014114843</span></p>
-                        <p><span class="title-s">Birthday: </span> <span>August 25, 2000</span></p>
-                        <a href="assets/Resume.pdf" download target="_blank">
-                        <button class="btn btn-outline-secondary btn-large">Resume</button>
-                        </a>
+                    </li>
+                    <li>
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                          <div class="yb-resume-item-date-text">
+                            <span>2008 - 2019</span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">
+                          St. Michael's Sr. Sec. School
+                        </h4>
                       </div>
-                    </div>
-                  </div>
-                  <div class="skill-mf">
-                    <p class="title-s">Interests</p>
-                    <span class="title-left">Book Reading 📗</span> <span class="pull-right"></span>
-                    <br><br>
-                    <span class="title-left">Hodophile 🧳</span> <span class="pull-right"></span>
-                    <br><br>
-                    <span class="title-left">Economics 💹</span> <span class="pull-right"></span>
-                    <br><br>
-                    <span class="title-left">Meeting People 🤝</span> <span class="pull-right"></span>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left hover-underline-animation">
-                        About me
-                      </h5>
-                    </div>
-                    <p class="lead">
-                      I am Kunal Verma from Jaipur, Rajasthan. I am currently pursuing B.Tech in Computer Science & Engineering from Indian Institute Of Information Technology, Kota.<br>
-                      Graduation Year - 2024
-                    </p>
-                    <p class="lead">
-                      I am a prodigious reader, a self-learner, a dedicated Competitive Programmer, an enthusiast, an optimistic and ambitious person.
-                    </p>
-                    <p class="lead">
-                      I am an dedicated and open-minded person who loves to connect with people.
-                    </p>
-                  </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- Latest Happenings -->
-    <section id="recent" class="recents">
-      <h3 class="title-a" style="text-align: center;">
-        🍀Latest Happenings🍀
-      </h3>
-      <div class="line-mf"></div>
-      <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-interval=2000 >
-
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="cert-image img-fluid" src="assets/img/certifications/ncat.png" alt="ncat">
-          </div>
-          <div class="carousel-item">
-            <img class="cert-image img-fluid" src="assets/img/certifications/codejam2021.png" alt="codejam">
-          </div>
-          <div class="carousel-item">
-            <img class="cert-image img-fluid" src="assets/img/certifications/rec2.jpg" alt="mltechgig">
-          </div>
-          <div class="carousel-item">
-            <img class="cert-image img-fluid" src="assets/img/certifications/rec1.jpg" alt="hsociocreator">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-
-      </div>
-    </section>
-    <!-- Education Section -->
-    <section id="education" class="education">
-      <div class="container">
-        <div class="title-box text-center">
-          <h3 class="title-a">
-            Education
-          </h3>
-          <p class="subtitle-a">
-            If I have a choice between Education &amp Experience, I prefer Education.
-          </p>
-          <div class="line-mf"></div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img class="proj-img" src="assets/img/college.jpg" alt="" class="alzheimer">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Indian Institute Of Information Technology, Kota</h2><br>
-                    <h3 class="w-subtitle">2020 - 2024</h3>
-                    <p><em>B.Tech, Computer Science &amp Engineering</em></p>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="http://www.iiitkota.ac.in/" target="_blank"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
+              <div>
+                <h2 class="yb-section-title uk-heading-line" id="experience">
+                  <span>Experience</span>
+                </h2>
+                <div class="yb-resume-list">
+                  <ul class="uk-list uk-list-large uk-list-divider">
+                    <li>
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                          <div class="yb-resume-item-date-text">
+                            <span>Jul'2021 - Present</span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">Web Developer</h4>
+                        <strong>Sid&Co</strong>
+                        <div class="uk-text-small">
+                          <p>
+                            Develops and Maintains Frontend and Backend of
+                            websites.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                          <div class="yb-resume-item-date-text">
+                            <span>Aug'2021 - Present</span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">
+                          Google Developer Student Club
+                        </h4>
+                        <strong>CORE TEAM MEMBER</strong>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                          <div class="yb-resume-item-date-text">
+                            <span>Sep 2021 - Oct 2021</span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">Google Cloud</h4>
+                        <strong>Facilitator</strong>
+                        <div class="uk-text-small">
+                          <p>
+                            <ul>
+                              <li>Organised a 30-day Google Cloud Program</li>
+                              <li>100+ Participants registered successfully for the program</li>
+                            </ul>
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img class="proj-img" src="assets/img/school.jpg" alt="" class="alzheimer">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">St.Michael's Sr. Sec School</h2><br>
-                    <h3 class="w-subtitle">2019</h3>
-                    <p><em>12<sup>th</sup> </em></p>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="http://www.stmichaelschooljpr.in/" target="_blank"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img class="proj-img" src="assets/img/school.jpg" alt="" class="alzheimer">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">St.Michael's Sr. Sec School</h2><br>
-                    <h3 class="w-subtitle">2017</h3>
-                    <p><em>10<sup>th</sup></em></p>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="http://www.stmichaelschooljpr.in/" target="_blank"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Education Section Ends -->
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="services-mf pt-5 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Skills
-              </h3>
-              <p class="subtitle-a">
-                Still Learning Them 😇
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle">
-                  <ion-icon name="logo-web-component"></ion-icon>
-                </span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">FrontEnd Design</h2>
-                <p class="s-description text-center">
-                  Able to use HTML, CSS and BootStrap to make beautifull websites
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="ion-code-working"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Web Development</h2>
-                <p class="s-description text-center">
-                  In Progress with BackEnd with JavaScript 😇
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><img class="skill-ai" src="https://img.icons8.com/ios/50/000000/artificial-intelligence.png" /></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">ML/AI</h2>
-                <p class="s-description text-center">
-                  Able to design powerful real-world Machine Learning
-                  models both from scratch and using frameworks/libraries like
-                  Tensorflow, Keras, OpenCV, and design of standalone ML/AI apps using
-                  state-of-the-art Streamlit Python library.<br>
-                  Visit me : <a href="https://github.com/hereiskunalverma" target="_blank" style="color: blue;">github</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle">
-                  <ion-icon name="podium-outline"></ion-icon></i>
-                </span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Competitive Programming</h2>
-                <p class="s-description text-center">
-                  Started as a skill but in love with this now.<br>
-                  A dedicated Competitive Programmer (in C++ and Python)<br>
-                  Visit me :<br>
-                  <a href="https://www.codechef.com/users/kunalverma_19" target="_blank" style="color: brown;">CodeChef</a><br>
-                  <a href="https://codeforces.com/profile/kunalverma19" target="_blank" style="color: red;">CodeForces</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle">
-                  <ion-icon name="bug-outline"></ion-icon></i>
-                </span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">C++</h2>
-                <p class="s-description text-center">
-                  Efficiency always matters
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle">
-                  <ion-icon name="logo-python"></ion-icon></i>
-                </span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Python</h2>
-                <p class="s-description text-center">
-                  Simplicity is the new Complexity
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Skills Section -->
-
-    <!-- Start Licenses/Certificates Section -->
-    <section id="certification" class="certifications">
-      <h3 class="title-a" style="text-align: center;">
-        Certifications
-      </h3>
-      <div class="line-mf"></div>
-      <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-interval=2000 >
-
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="cert-image img-fluid" src="assets/img/certifications/(0)Machine Learning Certificate.png" alt="ML1">
-          </div>
-          <div class="carousel-item">
-            <img class="cert-image img-fluid" src="assets/img/certifications/Deep Learning Specialization.png" alt="ML2">
-          </div>
-          <div class="carousel-item">
-            <img class="cert-image img-fluid" src="assets/img/certifications\DLAITensorflow.png" alt="ML3">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-
-      </div>
-    </section>
-
-    <!-- End Licenses/Certifications -->
-
-    <!-- ======= Projects Section ======= -->
-    <section id="project" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Projects
-              </h3>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img class="proj-img" src="assets/img/proj1.png" alt="" class="alzheimer">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Alzheimer's Early Stage Detection</h2>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://github.com/hereiskunalverma/Random_Repository/tree/main/Alzheimer's%20Early%20Stage%20Detection" target="_blank"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img class="proj-img" src="assets/img/proj2.png" alt="" class="energyeff">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Energy Efficiency of Building</h2>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://github.com/hereiskunalverma/Random_Repository/tree/main/Energy%20Efficiency%20of%20Building" target="_blank"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-3.jpg" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img class="proj-img" src="assets/img/proj3.jpg" alt="" class="facereg">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Face Recognition</h2>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://github.com/hereiskunalverma/Random_Repository/tree/main/FaceRecognition(OpenCV)" target="_blank"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/proj4(0).jpg" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img class="proj-img" src="assets/img/proj4(0).jpg" alt="" class="faceland">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Facial Landmark Detection</h2>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://github.com/hereiskunalverma/Random_Repository/tree/main/Facial%20Landmark%20with%20OpenCV" target="_blank"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/proj5.png" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img class="proj-img" src="assets/img/proj5.png" alt="" class="imgcolor">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Image Colorization</h2>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://github.com/hereiskunalverma/Random_Repository/tree/main/Image%20Colorization%20with%20DNN" target="_blank"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/proj6.png" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img class="proj-img" src="assets/img/proj6.png" alt="" class="soundcompress">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Sound Compression</h2>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://github.com/hereiskunalverma/Random_Repository/tree/main/Sound%20Compression" target="_blank"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="contact-mf">
-              <div id="contact" class="box-shadow-full">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="title-box-2">
+              <div>
+                <h2 class="yb-section-title uk-heading-line" id="skills">
+                  <span>Skills</span>
+                </h2>
+                <div class="yb-margin-top-1 yb-margin-bottom-2">
+                  <div
+                    class="
+                      uk-grid-collapse
+                      uk-child-width-1-2
+                      uk-child-width-1-3@s
+                      uk-child-width-1-4@m
+                      uk-text-center
+                    "
+                    data-uk-grid
+                  >
+                    <div class="yb-bg-soft">
+                      <div class="yb-box-circle">
+                        <div class="circle-progress" data-value="0">
+                          <strong><img class="skill-img" src="./src/img/skills/c-cpp.png"></strong>
+                        </div>
+                      </div>
                     </div>
                     <div>
-                      <img class="cute-img" src="assets/img/cute.png" alt="hi">
+                      <div class="yb-box-circle">
+                        <div class="circle-progress" data-value="0">
+                          <strong><img class="skill-img" src="./src/img/skills/python.png"></strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="yb-bg-soft">
+                      <div class="yb-box-circle">
+                        <div class="circle-progress" data-value="0">
+                          <strong><img class="skill-img" src="./src/img/skills/js.png"></strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="yb-box-circle">
+                        <div class="circle-progress" data-value="0">
+                          <strong><img class="skill-img" src="./src/img/skills/git.png"></strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="yb-box-circle">
+                        <div class="circle-progress" data-value="0">
+                          <strong><img class="skill-img" src="./src/img/skills/sql.png"></strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="yb-bg-soft">
+                      <div class="yb-box-circle">
+                        <div class="circle-progress" data-value="0">
+                          <strong><img class="skill-img" src="./src/img/skills/react.png"></strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="yb-box-circle">
+                        <div class="circle-progress" data-value="0">
+                          <strong><img class="skill-img" src="./src/img/skills/mongo.png"></strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="yb-bg-soft">
+                      <div class="yb-box-circle">
+                        <div class="circle-progress" data-value="0">
+                           <strong><img class="skill-img" src="./src/img/skills/tf.jpeg"></strong>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-6">
-                    <div class="title-box-2 pt-4 pt-md-0">
-                      <h5 class="title-left">
-                        Get in Touch
-                      </h5>
-                    </div>
-                    <div class="more-info">
-                      <p class="lead">
-                        Feel Free to reach me 😊
-                      </p>
-                      <ul class="list-ico">
-                        <li><span class="ion-ios-location"></span>Jaipur, Rajasthan 302002</li>
-                        <li><span class="ion-ios-telephone"></span>(+91) 7014114843</li>
-                        <li><span class="ion-email"></span>omeshankar@gmail.com</li>
+                  <div data-uk-grid class="uk-child-width-1-2">
+                    <div>
+                      <h4 class="yb-section-title">Soft Skills</h4>
+                      <ul class="uk-list uk-list-large uk-list-divider">
+                        <li>
+                          <div class="yb-resume-skill-item">
+                            <h5>
+                              Focus
+                            </h5>
+                            <progress
+                              class="uk-progress"
+                              value="100"
+                              max="100"
+                            ></progress>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="yb-resume-skill-item">
+                            <h5>
+                              Creativity
+                            </h5>
+                            <progress
+                              class="uk-progress"
+                              value="100"
+                              max="100"
+                            ></progress>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="yb-resume-skill-item">
+                            <h5>
+                              Problem Solving
+                            </h5>
+                            <progress
+                              class="uk-progress"
+                              value="100"
+                              max="100"
+                            ></progress>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="yb-resume-skill-item">
+                            <h5>
+                              Time Management
+                            </h5>
+                            <progress
+                              class="uk-progress"
+                              value="100"
+                              max="100"
+                            ></progress>
+                          </div>
+                        </li>
                       </ul>
                     </div>
-                    <div class="socials">
-                      <ul>
-                        <li><a href="https://www.linkedin.com/in/kunalverma19/" target="_blank"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
-                        <li><a href="https://www.instagram.com/kunalverma_iiitk/" target="_blank"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                        <li><a href="https://twitter.com/19kunalverma" target="_blank"><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
-                        <li><a href="https://github.com/hereiskunalverma/" target="_blank"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
+                    <div>
+                      <h4 class="yb-section-title">Language</h4>
+                      <ul class="uk-list uk-list-large uk-list-divider">
+                        <li>
+                          <div class="yb-resume-skill-item">
+                            <h5>
+                              English
+                            </h5>
+                            <progress
+                              class="uk-progress"
+                              value="100"
+                              max="100"
+                            ></progress>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="yb-resume-skill-item">
+                            <h5>
+                              Hindi
+                            </h5>
+                            <progress
+                              class="uk-progress"
+                              value="100"
+                              max="100"
+                            ></progress>
+                          </div>
+                        </li>
                       </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h2 class="yb-section-title uk-heading-line" id="awwwards">
+                  <span>Certifications</span>
+                </h2>
+                <div class="yb-resume-list">
+                  <ul class="uk-list uk-list-large uk-list-divider">
+                    <li>
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">Machine Learning (Stanford University)</h4>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">
+                          Deep Learning Specialization
+                        </h4>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">Deep Learning AI. Tensorflow Developer</h4>
+                      </div>
+                    </li>
+                    <h2 class="yb-section-title uk-heading-line" id="awwwards">
+                      <span>Achievements</span>
+                    </h2>
+                    <li>
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">CodeForces Round 748 Rank - 219/24205</h4>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">CodeChef Rating - 1752</h4>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">Accenture Innovation Challenge Finalist</h4>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">National Handball Player</h4>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">District Art Competion Winner</h4>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="
+            yb-section yb-section-padding
+            uk-background-cover uk-background-fixed
+          "
+          data-uk-parallax="bgy: -200"
+          data-src="src/img/bg/bg2.jpg"
+          data-uk-img
+        >
+          <div class="yb-overlay-primary uk-position-cover"></div>
+          <div class="uk-container uk-text-center uk-position-relative">
+            <div data-uk-grid class="uk-grid-small uk-flex-center">
+              <div>
+                <a
+                  href="https://drive.google.com/file/d/1BNGUAs4zm4cH1oi6ph1kRhyzlMzHBD64/view"
+                  class="yb-btn uk-button uk-button-primary uk-button-large"
+                  >Download Resume</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end resume section -->
+       <!-- portfolio section -->
+       <section class="yb-section uk-overflow-hidden" id="portfolio">
+        <div class="yb-section-point-wrapper">
+          <div class="uk-container">
+            <div class="yb-section-point">
+              <sup>04</sup>
+              <span>Portfolio</span>
+            </div>
+          </div>
+        </div>
+        <div class="uk-container">
+          <div data-uk-grid class="uk-grid-divider">
+            <div
+              class="
+                uk-width-1-4@s uk-visible@s uk-margin-large-bottom
+                yb-section-padding-top
+              "
+              id="portfolio-nav-wrapper"
+            >
+              <div
+                data-uk-sticky="bottom: #portfolio-nav-wrapper; offset: 100; media: 650"
+              >
+                <ul
+                  class="yb-nav-left uk-tab-left uk-tab"
+                  data-uk-scrollspy-nav="closest: li; scroll: false; offset: 120"
+                >
+                  <li class="uk-active">
+                    <a href="#myworks" class="yb-inner-link" data-offset="120">
+                      <span data-uk-icon="minus"></span>
+                      Projects/OpenSource
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#testi" class="yb-inner-link" data-offset="120">
+                      <span data-uk-icon="minus"></span>
+                      Testimonial
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="uk-width-expand@s yb-section-padding-top">
+              <div>
+              <h2 class="yb-section-title uk-heading-line " id="myworks"><span>My Works</span></h2>
+              <div data-uk-filter="target: .js-filter" class="yb-margin-top-1 yb-margin-bottom-1">
+                <ul class="yb-nav-filter uk-subnav uk-subnav-pill ">
+                  <li><a data-uk-filter-control>All</a></li>
+                  <li><a data-uk-filter-control=".data-web">Web</a></li>
+                  <li><a data-uk-filter-control=".data-brand">ML/AI</a></li>
+                </ul>
+                <ul class="js-filter uk-child-width-1-2  uk-grid-small  " data-uk-grid data-uk-lightbox="animation: fade;  toggle: .yb-lightbox">
+                  <li class="data-web ">
+                    <div class="yb-work-item uk-transition-toggle">
+                      <div class="yb-work-item-img-wrap">
+                        <div class="yb-work-item-img">
+                          <img src="src/img/empty.png" width="383" height="574" data-src="src/img/cinus.png" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
+                        </div>
+                        <div class="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
+                          <div>
+                            <a href="src/img/cinus.png" class="yb-lightbox uk-transition-slide-left" data-caption="Cinus">
+                              <span data-uk-icon="icon:plus; ratio:1.2"></span>
+                            </a>
+                            <a href="https://github.com/hereiskunalverma" target="_blank">
+                              <span data-uk-icon="icon:link; ratio:1.2"></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="https://github.com/hereiskunalverma" target="_blank">
+                        <div class="yb-work-item-title">
+                          <h5>Cinus (In Progress)</h5>
+                          <span>Web</span>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="data-brand data-web">
+                    <div class="yb-work-item uk-transition-toggle">
+                      <div class="yb-work-item-img-wrap">
+                        <div class="yb-work-item-img">
+                          <img src="src/img/empty.png" width="383" height="574" data-src="#" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
+                        </div>
+                        <div class="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
+                          <div>
+                            <a href="#" class="yb-lightbox uk-transition-slide-left" data-caption="REAK, Machine Translator">
+                              <span data-uk-icon="icon:plus; ratio:1.2"></span>
+                            </a>
+                            <a href="https://github.com/rexchange2030/reak" target="_blank">
+                              <span data-uk-icon="icon:link; ratio:1.2"></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="https://github.com/rexchange2030/reak" target="_blank">
+                        <div class="yb-work-item-title">
+                          <h5>REAK</h5>
+                          <span>ML/AI, Web</span>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="data-web">
+                    <div class="yb-work-item uk-transition-toggle">
+                      <div class="yb-work-item-img-wrap">
+                        <div class="yb-work-item-img">
+                          <img src="src/img/empty.png" width="383" height="574" data-src="src/img/hacktoberfest.png" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
+                        </div>
+                        <div class="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
+                          <div>
+                            <a href="src/img/hacktoberfest.png" class="yb-lightbox uk-transition-slide-left" data-caption="HacktoberFest 2021">
+                              <span data-uk-icon="icon:plus; ratio:1.2"></span>
+                            </a>
+                            <a href="https://github.com/hereiskunalverma" target="_blank">
+                              <span data-uk-icon="icon:link; ratio:1.2"></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="https://github.com/hereiskunalverma" target="_blank" >
+                        <div class="yb-work-item-title">
+                          <h5>HacktoberFest 2021</h5>
+                          <span>Web</span>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="data-brand">
+                    <div class="yb-work-item uk-transition-toggle">
+                      <div class="yb-work-item-img-wrap">
+                        <div class="yb-work-item-img">
+                          <img src="src/img/empty.png" width="383" height="574" data-src="src/img/proj1.png" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
+                        </div>
+                        <div class="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
+                          <div>
+                            <a href="src/img/work/07.jpg" class="yb-lightbox uk-transition-slide-left" data-caption="ALZHEIMER’S DISEASE EARLY STAGE DETECTION">
+                              <span data-uk-icon="icon:plus; ratio:1.2"></span>
+                            </a>
+                            <a href="https://github.com/rexchange2030/Machine-Learning-Imps/tree/main/Alzheimer's%20Early%20Stage%20Detection" >
+                              <span data-uk-icon="icon:link; ratio:1.2"></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="https://github.com/rexchange2030/Machine-Learning-Imps/tree/main/Alzheimer's%20Early%20Stage%20Detection" >
+                        <div class="yb-work-item-title">
+                          <h5>ALZHEIMER’S DISEASE EARLY STAGE DETECTION</h5>
+                          <span>ML/AI</span>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="data-brand">
+                    <div class="yb-work-item uk-transition-toggle">
+                      <div class="yb-work-item-img-wrap">
+                        <div class="yb-work-item-img">
+                          <img src="src/img/empty.png" width="383" height="574" data-src="src/img/proj2.png" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
+                        </div>
+                        <div class="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
+                          <div>
+                            <a href="src/img/proj2.png" class="yb-lightbox uk-transition-slide-left" data-caption="ENERGY EFFICIENCY OF BUILDINGS/APARTMENTS BASED ON RESEARCH PAPER">
+                              <span data-uk-icon="icon:plus; ratio:1.2"></span>
+                            </a>
+                            <a href="https://secret-ridge-53404.herokuapp.com/" target="_blank" >
+                              <span data-uk-icon="icon:link; ratio:1.2"></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="https://secret-ridge-53404.herokuapp.com/" target="_blank">
+                        <div class="yb-work-item-title">
+                          <h5>ENERGY EFFICIENCY OF BUILDINGS/APARTMENTS BASED ON RESEARCH PAPER</h5>
+                          <span>ML/AI</span>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="data-brand">
+                    <div class="yb-work-item uk-transition-toggle">
+                      <div class="yb-work-item-img-wrap">
+                        <div class="yb-work-item-img">
+                          <img src="src/img/empty.png" width="383" height="574" data-src="src/img/proj3.jpg" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
+                        </div>
+                        <div class="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
+                          <div>
+                            <a href="src/img/proj3.jpg" class="yb-lightbox uk-transition-slide-left" data-caption="Facial Recognition System">
+                              <span data-uk-icon="icon:plus; ratio:1.2"></span>
+                            </a>
+                            <a href="https://github.com/rexchange2030/Machine-Learning-Imps/tree/main/FaceRecognition(OpenCV)" target="_blank">
+                              <span data-uk-icon="icon:link; ratio:1.2"></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="https://github.com/rexchange2030/Machine-Learning-Imps/tree/main/FaceRecognition(OpenCV)" target="_blank" >
+                        <div class="yb-work-item-title">
+                          <h5>Facial Recognition System</h5>
+                          <span>ML/AI</span>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="data-brand">
+                    <div class="yb-work-item uk-transition-toggle">
+                      <div class="yb-work-item-img-wrap">
+                        <div class="yb-work-item-img">
+                          <img src="src/img/empty.png" width="383" height="574" data-src="https://i.ytimg.com/vi/0tTRA3emrr4/sddefault.jpg" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
+                        </div>
+                        <div class="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
+                          <div>
+                            <a href="https://i.ytimg.com/vi/0tTRA3emrr4/sddefault.jpg" class="yb-lightbox uk-transition-slide-left" data-caption="Neural Style Transfer">
+                              <span data-uk-icon="icon:plus; ratio:1.2"></span>
+                            </a>
+                            <a href="https://github.com/rexchange2030/Neural-Style-Transfer" target="_blank">
+                              <span data-uk-icon="icon:link; ratio:1.2"></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="https://github.com/rexchange2030/Neural-Style-Transfer" target="_blank" >
+                        <div class="yb-work-item-title">
+                          <h5>Neural Style Transfer</h5>
+                          <span>ML/AI</span>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="data-brand">
+                    <div class="yb-work-item uk-transition-toggle">
+                      <div class="yb-work-item-img-wrap">
+                        <div class="yb-work-item-img">
+                          <img src="src/img/empty.png" width="383" 
+                          height="574" data-src="https://analyticsinsight.b-cdn.net/wp-content/uploads/2021/08/How-Companies-are-Using-Artificial-Intelligence.jpg" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
+                        </div>
+                        <div class="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
+                          <div>
+                            <a href="https://analyticsinsight.b-cdn.net/wp-content/uploads/2021/08/How-Companies-are-Using-Artificial-Intelligence.jpg" class="yb-lightbox uk-transition-slide-left" data-caption="More Machine Learnng Projects">
+                              <span data-uk-icon="icon:plus; ratio:1.2"></span>
+                            </a>
+                            <a href="https://github.com/rexchange2030"
+                            target="_blank">
+                              <span data-uk-icon="icon:link; ratio:1.2"></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="https://github.com/rexchange2030" target="_blank" >
+                        <div class="yb-work-item-title">
+                          <h5>More Projects</h5>
+                          <span>ML/AI</span>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="data-web">
+                    <div class="yb-work-item uk-transition-toggle">
+                      <div class="yb-work-item-img-wrap">
+                        <div class="yb-work-item-img">
+                          <img src="src/img/empty.png" width="383" 
+                          height="574" data-src="https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
+                        </div>
+                        <div class="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
+                          <div>
+                            <a href="https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png" class="yb-lightbox uk-transition-slide-left" data-caption="More Web Development Projects">
+                              <span data-uk-icon="icon:plus; ratio:1.2"></span>
+                            </a>
+                            <a href="https://github.com/orgs/Dev-is-here" target="_blank">
+                              <span data-uk-icon="icon:link; ratio:1.2"></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="https://github.com/orgs/Dev-is-here" target="_blank" >
+                        <div class="yb-work-item-title">
+                          <h5>More Projects</h5>
+                          <span>ML/AI</span>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+                <div id="show-portofolio-details" class="uk-modal-full" data-uk-modal>
+                  <div class="uk-modal-dialog ">
+                    <button class="uk-modal-close-full uk-close-large" type="button" data-uk-close></button>
+                    <div id="portofolio-details" data-uk-height-viewport class="uk-animation-toggle uk-overflow-hidden">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div>
+                <h2 class="yb-section-title uk-heading-line" id="testi">
+                  <span>Testimonial</span>
+                </h2>
+                <div data-uk-slider>
+                  <div class="yb-margin-top-1 yb-margin-bottom-2">
+                    <div data-uk-grid class="uk-grid-small">
+                      <div class="uk-width-expand">
+                        <div class="uk-slider-container">
+                          <ul
+                            class="
+                              yb-slider-items
+                              uk-slider-items uk-child-width-1-1
+                            "
+                          >
+                            <li>
+                              <div class="yb-testi-item">
+                                <div class="yb-testi-item-desc">
+                                  <h4>Creative</h4>
+                                  As a web developer, Kunal reads clients and their needs well, creating unique designs. Kunal has a great design sense and understands the challenges and limitations of web design very well. He has a passion for web design and is always on track with the latest technology. it's always been amazing working with him.
+                                </div>
+                                <div class="yb-testi-item-img">
+                                  <div
+                                    data-uk-grid
+                                    class="uk-flex-middle uk-grid-small"
+                                  >
+                                    <div>
+                                      <img
+                                        src="src/img/empty.png"
+                                        width="300"
+                                        height="300"
+                                        data-src="https://media-exp1.licdn.com/dms/image/C5603AQGyWy1Qh7_0Ig/profile-displayphoto-shrink_100_100/0/1632918542235?e=1640822400&v=beta&t=4yErhRFCZsU5TMLHhLygyZiIQfL7BR2ewcg3HYCo_NI"
+                                        alt=""
+                                        data-uk-img
+                                      />
+                                    </div>
+                                    <div class="uk-text-bold uk-text-small">
+                                      <span>Jeevansh Sharma</span>
+                                      <span data-uk-icon="minus"></span>
+                                      <span>Marketing Intern @Sid&Co</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="yb-testi-item">
+                                <div class="yb-testi-item-desc">
+                                  <h4>Laser-Focused</h4>
+                                  Worked with Kunal, it is justified to say his commitment towards his projects is amazing. As a web designer, he reads clients and their needs well, creating unique designs. Moreover, Kunal is a confident, diverse web designer that produces fantastic ideas and designs.
+                                </div>
+                                <div class="yb-testi-item-img">
+                                  <div
+                                    data-uk-grid
+                                    class="uk-flex-middle uk-grid-small"
+                                  >
+                                    <div>
+                                      <img
+                                        src="src/img/empty.png"
+                                        width="300"
+                                        height="300"
+                                        data-src="https://media-exp1.licdn.com/dms/image/C5603AQEVIs2as4MxwQ/profile-displayphoto-shrink_100_100/0/1599851594347?e=1640822400&v=beta&t=jY8AOj-r4JFB1LMguTNgw1g246W2HVZjGwRoBVvTl3A"
+                                        alt=""
+                                        data-uk-img
+                                      />
+                                    </div>
+                                    <div class="uk-text-bold uk-text-small">
+                                      <span>Ali Khan</span>
+                                      <span data-uk-icon="minus"></span>
+                                      <span>Content Writer, @Sid&Co</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="uk-width-auto">
+                        <div class="yb-testi-nav">
+                          <a href="#" data-uk-slider-item="next">
+                            <span data-uk-icon="arrow-right"></span>
+                          </a>
+                          <a href="#" data-uk-slider-item="previous">
+                            <span data-uk-icon="arrow-left"></span>
+                          </a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -617,44 +1123,323 @@
             </div>
           </div>
         </div>
+      </section>
+      <!-- end portfolio section -->
+      <!-- blog section -->
+      <section class="yb-section yb-section-padding" id="blog">
+        <div class="yb-section-point-wrapper">
+          <div class="uk-container">
+            <div class="yb-section-point">
+              <sup>05</sup>
+              <span>Blog</span>
+            </div>
+          </div>
+        </div>
+        <div class="uk-container">
+          <h2 class="yb-section-title uk-heading-line">
+            <span>Recents</span>
+          </h2>
+
+          <div
+            data-uk-grid
+            class="uk-grid-medium yb-margin-top-1 yb-margin-bottom-2"
+          >
+            <div class="uk-width-2-3@m">
+              <a href="https://hereiskunalverma.medium.com/sublime-text-3-2021-setup-for-competitive-programming-97c4d5e12d08" target="_blank">
+                <div
+                  class="yb-blog-item uk-background-cover"
+                  data-src="https://miro.medium.com/max/1400/1*ug7SUgIXMdm8EHgHiHPnjA.jpeg"
+                  data-uk-img
+                >
+                  <div class="uk-overlay uk-position-cover"></div>
+                  <div class="uk-overlay uk-position-top">
+                    <span class="uk-badge">Competitive Programming</span>
+                  </div>
+                  <div class="uk-overlay uk-position-bottom">
+                    <h5 class="yb-blog-item-title uk-text-truncate">
+                      Setup Sublime Text 3 for Competitive Programming
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="uk-width-1-3@m uk-width-1-2@s">
+              <a href="https://hereiskunalverma.medium.com/step-wise-web-deployment-of-websites-and-python-streamlit-apps-b9ae017a4ced" target="_blank">
+                <div
+                  class="yb-blog-item uk-background-cover"
+                  data-src="https://miro.medium.com/max/1400/1*pjS66U9D_54u1dROZo1bOQ.gif"
+                  data-uk-img
+                >
+                  <div class="uk-overlay uk-position-cover"></div>
+                  <div class="uk-overlay uk-position-top">
+                    <span class="uk-badge">Deployment on Web</span>
+                  </div>
+                  <div class="uk-overlay uk-position-bottom">
+                    <h5 class="yb-blog-item-title uk-text-truncate">
+                      Step — Wise Web Deployment of Websites and Streamlit Apps
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="uk-width-1-3@m uk-width-1-2@s">
+              <a href="https://accenture-innovation-challenge-2021.hackerearth.com/" target="_blank">
+                <div
+                  class="yb-blog-item uk-background-cover"
+                  data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5mkQ_Fkv2jCvUECw-LZNysHenMNi6BOptRw&usqp=CAU"
+                  data-uk-img
+                >
+                  <div class="uk-overlay uk-position-cover"></div>
+                  <div class="uk-overlay uk-position-top">
+                    <span class="uk-badge">Hackaton</span>
+                  </div>
+                  <div class="uk-overlay uk-position-bottom">
+                    <h5 class="yb-blog-item-title uk-text-truncate">
+                      Accenture Innovation Challenge 2021
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end blog section -->
+      <!-- contact section -->
+      <section class="yb-section yb-border-top" id="contact">
+        <div class="yb-section-point-wrapper">
+          <div class="uk-container">
+            <div class="yb-section-point">
+              <sup>06</sup>
+              <span>Contact</span>
+            </div>
+          </div>
+        </div>
+        <div class="uk-container">
+          <div data-uk-grid class="uk-grid-divider">
+            <div class="yb-section-padding yb-contact-left uk-width-3-4@m">
+              <div>
+                <h2 class="yb-section-title uk-heading-line">
+                  <span>Get in touch</span>
+                </h2>
+                <p class="uk-text-bold">Feel free to contact me</p>
+                <div id="contact-form-alert"></div>
+                <form id="contact-form" class="uk-form-stacked">
+                  <div class="uk-grid uk-grid-small uk-child-width-1-2@s">
+                    <div>
+                      <div class="uk-margin">
+                        <label for="f_email" class="uk-form-label"
+                          >Email*</label
+                        >
+                        <div class="uk-form-controls uk-inline uk-width-1-1">
+                          <span
+                            class="uk-form-icon"
+                            data-uk-icon="icon: user"
+                          ></span>
+                          <input
+                            class="yb-input uk-input uk-border-rounded"
+                            type="email"
+                            name="f_email"
+                            id="f_email"
+                            placeholder=" Your email here . . ."
+                          />
+                        </div>
+                        <small
+                          class="uk-text-danger err-msg"
+                          id="f_email_error"
+                        ></small>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="uk-margin">
+                        <label for="f_phone" class="uk-form-label"
+                          >Phone*</label
+                        >
+                        <div class="uk-form-controls uk-inline uk-width-1-1">
+                          <span
+                            class="uk-form-icon"
+                            data-uk-icon="icon: phone"
+                          ></span>
+                          <input
+                            class="yb-input uk-input uk-border-rounded"
+                            type="text"
+                            name="f_phone"
+                            id="f_phone"
+                            placeholder=" Your phone here . . ."
+                          />
+                        </div>
+                        <small
+                          class="uk-text-danger err-msg"
+                          id="f_phone_error"
+                        ></small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="uk-margin">
+                    <label class="uk-form-label">Subject*</label>
+                    <div
+                      class="
+                        uk-form-controls
+                        uk-grid-small
+                        uk-child-width-auto
+                        uk-grid
+                      "
+                    >
+                      <label
+                        ><input
+                          class="uk-radio"
+                          type="radio"
+                          name="f_subject"
+                          value="General"
+                          checked
+                        />
+                        General</label
+                      >
+                      <label
+                        ><input
+                          class="uk-radio"
+                          type="radio"
+                          name="f_subject"
+                          value="Project Preview"
+                        />
+                        Project Work</label
+                      >
+                      <label
+                        ><input
+                          class="uk-radio"
+                          type="radio"
+                          name="f_subject"
+                          value="Hire Me"
+                        />
+                        Hire Me</label
+                      >
+                    </div>
+                  </div>
+                  <div class="uk-margin">
+                    <label for="f_message" class="uk-form-label"
+                      >Message*</label
+                    >
+                    <div class="uk-form-controls">
+                      <textarea
+                        class="yb-input uk-textarea uk-border-rounded"
+                        rows="7"
+                        name="f_message"
+                        id="f_message"
+                        placeholder="Your message here . . ."
+                      ></textarea>
+                    </div>
+                    <small
+                      class="uk-text-danger err-msg"
+                      id="f_message_error"
+                    ></small>
+                  </div>
+                  <div class="uk-margin-top">
+                    <button
+                      class="uk-button uk-button-primary uk-button-large yb-btn"
+                      type="submit"
+                      id="btn-contact-form"
+                      data-textreset="Send Now"
+                    >
+                      <span class="uk-margin-small-right btn-text-wrap"
+                        >Send Now</span
+                      >
+                      <span data-uk-icon="arrow-right" class="uk-icon"> </span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="uk-width-1-4@m yb-section-padding yb-contact-right">
+              <p class="uk-margin-medium-bottom uk-visible@m">
+                <img
+                  src="src/img/empty.png"
+                  data-src="src/img/myself.jpg"
+                  width="500"
+                  height="500"
+                  data-uk-img
+                  alt=""
+                  class="uk-border-circle"
+                />
+              </p>
+              <ul class="uk-list uk-list-divider uk-text-small yb-contact-mini">
+                <li class="uk-flex uk-flex-middle">
+                  <span
+                    data-uk-icon="mail"
+                    class="uk-flex-none uk-text-primary"
+                  ></span>
+                  <span>2020kucp1093@iiitkota.ac.in</span>
+                </li>
+                <li class="uk-flex uk-flex-middle">
+                  <span
+                    data-uk-icon="phone"
+                    class="uk-flex-none uk-text-primary"
+                  ></span>
+                  <span> +91-7014114843</span>
+                </li>
+                <li class="uk-flex uk-flex-middle">
+                  <span
+                    data-uk-icon="location"
+                    class="uk-flex-none uk-text-primary"
+                  ></span>
+                  <span>Jaipur, Rajasthan, India</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end contact section -->
+    </main>
+    <!-- end main section -->
+    <!-- main footer -->
+    <footer class="yb-main-footer-wrapper">
+      <div class="waveHorizontals">
+        <div
+          id="waveHorizontal1"
+          class="waveHorizontal"
+          data-uk-img
+          data-src="src/img/bg/wave1.svg"
+        ></div>
+        <div
+          id="waveHorizontal2"
+          class="waveHorizontal"
+          data-uk-img
+          data-src="src/img/bg/wave2.svg"
+        ></div>
+        <div
+          id="waveHorizontal3"
+          class="waveHorizontal"
+          data-uk-img
+          data-src="src/img/bg/wave3.svg"
+        ></div>
       </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="copyright-box">
-            <p class="copyright">&copy; Copyright</p>
-            <div class="credits">
-              Designed by <strong>Kunal Verma</strong></a>
+      <a
+        href="#body-app"
+        class="uk-visible@s yb-totop yb-inner-link"
+        data-uk-totop
+      ></a>
+      <div class="yb-main-footer">
+        <div class="uk-container">
+          <div data-uk-grid class="uk-child-width-1-2@s">
+            <div class="uk-margin-remove uk-text-left@s">
+              &copy; 2021, Kunal Verma
+            </div>
+            <div class="uk-margin-remove uk-text-right@s">
+              <div class="yb-footer-social">
+                <a href="https://www.linkedin.com/in/kunalverma19/">LinkedIn</a>
+                <a href="https://github.com/hereiskunalverma/">GitHub</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer><!-- End  Footer -->
+    </footer>
+    <!-- end main footer -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/jquery.counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- js -->
+    <script src="src/app/js/plugins.min.js"></script>
+    <script src="src/app/js/app.js"></script>
+  </body>
 </html>
+
+<!-- TL -->
