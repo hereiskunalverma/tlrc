@@ -1231,16 +1231,10 @@
                 <p class="uk-text-bold">Feel free to contact me</p>
                 <div id="contact-form-alert"></div>
                 <!-- id="contact-form" -->
-                <script>
-                  $(function() {
-                        $('#registerform').submit(function(event) {
-                            event.preventDefault();
-                            $(this).submit();
-                            }); 
-                      });
-                </script>
+                
                 <form 
                 action="https://formspree.io/f/mvodzrra" method="POST"
+                id="#registerform"
                  class="uk-form-stacked">
                   <div class="uk-grid uk-grid-small uk-child-width-1-2@s">
                     <div>
@@ -1353,6 +1347,7 @@
                   <div class="uk-margin-top">
                     <button
                       class="uk-button uk-button-primary uk-button-large yb-btn"
+                      onclick="window.location.href = '#'"
                       type="submit"
                       id="btn-contact-form"
                       data-textreset="Send Now"
