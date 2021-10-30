@@ -1231,6 +1231,14 @@
                 <p class="uk-text-bold">Feel free to contact me</p>
                 <div id="contact-form-alert"></div>
                 <!-- id="contact-form" -->
+                <script>
+                  $(function() {
+                        $('#registerform').submit(function(event) {
+                            event.preventDefault();
+                            $(this).submit();
+                            }); 
+                      });
+                </script>
                 <form 
                 action="https://formspree.io/f/mvodzrra" method="POST"
                  class="uk-form-stacked">
