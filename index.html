@@ -1,4 +1,4 @@
- R E X -->
+ R E X
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -671,7 +671,7 @@
                             <span data-uk-icon="calendar"></span>
                           </div>
                         </div>
-                        <h4 class="yb-section-title">CodeForces Round 748 Rank - 219/24205</h4>
+                        <h4 class="yb-section-title">CodeForces Ratings - 1435</h4>
                       </div>
                     </li>
                     <li>
@@ -1234,7 +1234,7 @@
                 
                 <form 
                 action="https://formspree.io/f/mvodzrra" method="POST"
-                id="#registerform"
+                id="form"
                  class="uk-form-stacked">
                   <div class="uk-grid uk-grid-small uk-child-width-1-2@s">
                     <div>
@@ -1251,6 +1251,7 @@
                             class="yb-input uk-input uk-border-rounded"
                             type="email"
                             name="f_email"
+                            required
                             id="f_email"
                             placeholder=" Your email here . . ."
                           />
@@ -1276,6 +1277,7 @@
                             type="text"
                             name="f_phone"
                             id="f_phone"
+                            
                             placeholder=" Your phone here . . ."
                           />
                         </div>
@@ -1327,7 +1329,7 @@
                     </div>
                   </div>
                   <div class="uk-margin">
-                    <label for="f_message" class="uk-form-label"
+                    <label for="f_message" class="uk-form-label" required
                       >Message*</label
                     >
                     <div class="uk-form-controls">
@@ -1347,7 +1349,6 @@
                   <div class="uk-margin-top">
                     <button
                       class="uk-button uk-button-primary uk-button-large yb-btn"
-                      onclick="window.location.href = '#'"
                       type="submit"
                       id="btn-contact-form"
                       data-textreset="Send Now"
@@ -1401,6 +1402,16 @@
         </div>
       </section>
       <!-- end contact section -->
+      <script>
+        // Form
+let contactForm = document.getElementById("form");
+
+// Event listener
+contactForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+    window.location.assign("./src/thankyou.html");
+});
+      </script>
     </main>
     <!-- end main section -->
     <!-- main footer -->
